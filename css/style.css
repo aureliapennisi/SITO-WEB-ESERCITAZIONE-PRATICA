@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', 'Gill Sans', 'Gill Sans MT',sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+header, footer {
+    margin: 0;
+    display: flex;
+padding: 26px 64px;
+justify-content: space-between;
+background-color: #c9ea00;
+align-items: center;
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+header nav ul, footer nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 27px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    background-color: black;
+}
+
+h2, h3 {
+    margin: 0;
+    color: white;
+}
+
+h4, h5, h6 {
+    margin: 0;
+    color: #c9ea00;
+}
+
+h2 {
+    padding: 200px 0 0;
+    font-size: 96px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.inaugurazione {
+    padding: 60px 0 240px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+h5 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    padding: 200px 0 80px;
+    text-transform: uppercase;
+}
+
+.verde {
+    background-color: #c9ea00;
+}
+
+.verde p {
+    margin: 0;
+    padding: 10px 10%;
+}
+
+.verde .testo {
+    padding: 100px 0 70px;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.nero, .homeartisti, .nero2 {
+    background-color: black;
+}
+
+.nero2 {
+    height: 300px;
+}
+
+.nero {
+    height: 150px;
+}
+
+.griglia {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+gap: 65px;
+padding-bottom: 200px;
+}
+
+.griglia .card img {
+    margin: 0;
+    width: 245px;
+    height: 335px;
+    border-radius: 80px 80px 0 0;
+}
+
+
+.card span {
+    margin: 0;
+    padding: 0 auto;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.griglia .card {
+    background-color: #d9d9d9;
+    text-align: center;
+    border-radius: 90px 90px 0 0;
+    width: 245px;
+    height: 385px;
+margin: 0 auto;
+}
+
+.griglia .opera {
+    margin: 0 auto;
+    width: 245px;
+    height: 385px;
+    border-radius: 80px 80px 0 0;
+}
+
+.ultimo {
+    font-size: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    padding-top:  50px;
+    padding-bottom: 0;
+
+}
+
+.testo {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.testomappa {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-top: 100px;
+}
+
+.testomappa p {
+    padding-top: 0;
+}
+
+.imgmappa {
+    height: 353px;
+    width: 510px;
+    margin-bottom: 100px;
+}
+
